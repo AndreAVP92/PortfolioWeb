@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img\redo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40">cv</a>
+                        <p class="description text-uppercase font-os">André Villata</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me" class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#skills" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
+                        <a href="#works" class="nav-item nav-link text-white-50 font-os font-size-16 active">Works</a>
+                        <a href="#contact_me" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact Me</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+        <div class="social">
+            <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+            <span class="mr-3"><i class="fab fa-twitter"></i></span>
+            <span class="mr-3"><i class="fab fa-instagram"></i></span>
+            <span class="mr-3"><i class="fab fa-youtube"></i></span>
+        </div>
+    </header>
+    <!-- #header area -->
+    
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-white font-staat font-size-40 text-uppercase py-3">André Villata</h1>
+                            <h5 class="text-white font-ram font-size-27">i'm <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                    <div id="scroll" class="demo">            
+                        <a href="#about_me"><span></span></a>
+                    </div>    
+                </section>
+                <!-- <section id="scroll" class="demo">            
+                    <a href="#about_me"><span></span></a>
+                  </section> -->
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                    <section class="about px-4 my-5" id="about_me">
+                        <div class="me py-5">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col-sm-5 pl-0">
+                                <img class="mypic" src="./img/me2.jpg" alt="profile image" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6">
+                                <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+                                <h5 class="font-ram font-size-20 py-2">I'm André Villata & <span id="typed_2"></span></h5>
+                                <p class="font-ram text-black-50 py-2">
+                                    Hi, my name is André Villata. I am a Web Developer, with a deep admiration for web design. 
+                                    My electronic techinician degree helped me gain experiencie in the printin industry. Years 
+                                    later, fortunately, i found my passion for programming by specializing in .NET
+                                </p>
+                                <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                    <div class="d-flex flex-column">
+                                        <p class="font-ram"><b>Birthday: </b><span class="text-black-50">5 November 1992</span></p>
+                                        <p class="font-ram"><b>Phone: </b><span class="text-black-50">15-6183-6484</span></p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <p class="font-ram"><b>Mail: </b><span class="text-black-50">lpa24508@gmail.com</span></p>
+                                        <p class="font-ram"><b>LinkedIn: </b><span class="text-black-50">@andrevillalta</span></p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-dark text-uppercase mr-3">Hire ME</button>
+                                <button class="btn btn-dark text-uppercase mr-3">
+                                    <a href="vendor\cv_AndreVillalta.pdf" download="cv_AndreVillalta"> Download CV</a>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+                    <section class="skill px-4 py-5 bg-light" id="skills">
+                        <div class="ability py-3">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">Ability</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 pl-4">
+                                <p class="font-ram font-size-16 text-black-50 pb-3">
+                                    NET Framework : WinForm, WebForm ASP.NET, ADO.NET, .NET MVC5, Entity Framework
+                                </p>
+                                <p class="font-ram font-size-16 text-black-50 pb-3">
+                                    MS SQL: Transact SQL, DML, DDL, Stored Procedures, Views
+                                </p>
+                                <p class="font-ram font-size-16 text-black-50 pb-3">
+                                    Bootstrap, HTML & Pure CSS
+                                </p>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Javascript : Ajax, Jquery, Json
+                                </p>
+                            </div>
+                            <div class="col-sm-6 bars">
+                                <div class="bar-1 mb-4">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <p class="font-ram font-size-16">.NET</p>
+                                        <span class="font-ram font-size-16">65%</span>
+                                    </div>
+                                    <div class="progress" style="height: 4px;">
+                                        <div class="progress-bar bgcolor-black" role="progressbar" style="width:65%"></div>
+                                    </div>
+                                </div>
+                                <div class="bar-1 mb-4">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <p class="font-ram font-size-16">MSQL Server</p>
+                                        <span class="font-ram font-size-16">60%</span>
+                                    </div>
+                                    <div class="progress" style="height: 4px;">
+                                        <div class="progress-bar bgcolor-black" role="progressbar" style="width:60%"></div>
+                                    </div>
+                                </div>
+                                <div class="bar-1 mb-4">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <p class="font-ram font-size-16">HTML5 y CSS3</p>
+                                        <span class="font-ram font-size-16">50%</span>
+                                    </div>
+                                    <div class="progress" style="height: 4px;">
+                                        <div class="progress-bar bgcolor-black" role="progressbar" style="width:50%"></div>
+                                    </div>                                   
+                                </div>
+                                <div class="bar-1 mb-4">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <p class="font-ram font-size-16">Javascript</p>
+                                        <span class="font-ram font-size-16">55%</span>
+                                    </div>
+                                    <div class="progress" style="height: 4px;">
+                                        <div class="progress-bar bgcolor-black" role="progressbar" style="width:55%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                <!-- #ability -->
+
+                <!-- works -->
+                    <section class="work-area px-4 py-5" id="works">
+                        <div class="do py-5">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">What i Did</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">developments</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 mb-4 text-center">
+                                <div class="panel border p-4" id="genesys">
+                                    <span class="icon text-secondary"><i class="fas fa-laptop fa-3x"></i></span>
+                                    <h4 class="font-ram py-4">Genesys</h4>
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        Re design of a  system integrate administrative (CRM) development with MVC5 for a customer using Razor, Bootstrap and 
+                                        in some cases, pure css & html
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 mb-4 text-center">
+                                <div class="panel border p-4" id="handyman">
+                                    <span class="icon text-secondary"><i class="fas fa-hard-hat fa-3x"></i></span>
+                                    <h4 class="font-ram py-4">Handyman</h4>
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        Web App to hire home service professionals as a integral project for the university, development
+                                        with ADO.NET, WebForm y Js. It was my first web project
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 mb-4 text-center">
+                                <div class="panel border p-4" id="ssa">
+                                    <span class="icon text-secondary"><i class="fas fa-tools fa-3x"></i></span>
+                                    <h4 class="font-ram py-4">SSA</h4>
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        Personal project under development. It's a system sales developed in Net Core, Entity Framework Core, Angular and AngularMaterial
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                <!-- #works -->
+
+                <!-- reference -->
+                    <!-- <section class="reference bg-light py-5 px-4">
+                        <div class="refer py-3">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">My Reference</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">References</h1>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-sm-4 my-3">
+                                <img src="" alt="refer1" class="img-fluid">
+                            </div>
+                            <div class="col-sm-4 my-3">
+                                <img src="" alt="refer2" class="img-fluid">
+                            </div>
+                            <div class="col-sm-4 my-3">
+                                <img src="" alt="refer3" class="img-fluid">
+                            </div>
+                        </div>
+                    </section> -->
+                <!-- #reference -->
+
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_me">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">Contact</h5>
+                                <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-6" style="margin-left: 10px;"> 
+                                <h6 class="text-uppercase font-ram font-size-16 text-dark">Hire me</h6>                
+                                <p class="font-ram w-50 font-size-16 text-black-50">Hire your perfect junior. 
+                                    In me you will find responsibility and proactivity. You will not regret</p>
+                                <p class="font-ram font-size-16 text-black-50 pt-3">PHONE: 
+                                <a href="tel:+5491161836484">15-6183-6484</a></p>
+                                <p class="font-ram font-size-16 text-black-50">EMAIL: 
+                                    <a href="mailto:lpa24508@gmail.com">lpa24508@gmail.com</a>
+                                </p>
+                                <p class="font-ram font-size-16 text-black-50">ADDRESS: Don Torcuato, Tigre, Buenos aires</p>
+                            </div>
+                            <div class="col-sm-5 py-4 px-4">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13153.789826469576!2d-58.61026744734496!3d-34.491538787281385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1591744556785!5m2!1ses-419!2sar" 
+                                        width="460" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                                </iframe>
+                            </div>
+
+                        </div>
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2020 ANVI. All rights reserved</h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <a href="#" class="navbar-brand font-staat font-size-40 text-dark">ANVI</a>
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">André Villalta</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 my-5 text-center">                                
+                                <a class="iconos mr-3" href="#">
+                                    <i class="fb fab fa-facebook-f"></i>
+                                </a>
+                                <a class="iconos mr-3" href="#">
+                                    <i class="ins fab fa-instagram"></i>
+                                </a>
+                                <a class="iconos mr-3" href="https://www.linkedin.com/in/andrevillalta/">
+                                    <i class="lin fab fa-linkedin" alt="linkedin"></i>
+                                </a>
+                                <a class="iconos mr-3" href="https://sangriacbr.bandcamp.com/releases">
+                                    <i class="you fab fa-bandcamp" alt="mi banda en bandcamp"></i>
+                                </a>
+                                <a class="iconos mr-3" href="https://github.com/AndreAVP92?tab=repositories">
+                                    <i class="git fab fa-github" alt="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
