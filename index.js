@@ -32,7 +32,7 @@ function toggle_onclick($win, $navbar, width){
 /*FUNCTION TYPED */
 var typed = new Typed('#typed' , {
     strings: [
-        '.NET Developer',
+        'a .NET Developer',
         'Freelancer',
         'Drummer too!'
     ],
