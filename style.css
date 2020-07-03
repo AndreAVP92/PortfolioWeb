@@ -90,7 +90,6 @@ a:hover {
 }
 #header .site-title .navbar-brand{
     letter-spacing: 2px;
-    /* color: var(--color-white); */
     color: var(--color-orange);
 }
 
@@ -123,11 +122,12 @@ a:hover {
 /*scroll*/
 #scroll {
     position: absolute;
-    left: 48%;
+    left: -2%;
+    top: 19%;
 }
 .demo a {
     position: absolute;
-    bottom: 20px;
+    /* bottom: 20px; */
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -142,9 +142,6 @@ a:hover {
     opacity: .5;
   }
 
-  #scroll a {
-    padding-top: 40px;
-  }
   #scroll a span {
     position: absolute;
     top: 0;
@@ -153,6 +150,8 @@ a:hover {
     border: 2px solid var(--color-white);
     border-radius: 50px;
     box-sizing: border-box;
+    
+    display: flex;
   }
   #scroll a span::before {
     position: absolute;
@@ -243,15 +242,11 @@ canvas {
     background-position: 40% 0;
 }
 
-.mypic{
-    height: 100%;
-}
-
 .skill .bars p, .site-content .skill .bars span{
     line-height: 10px;
 }
 /*animate progreess*/
-.progress {
+.progress, .nav-item {
     animation: animate 2s;
 }
 @keyframes animate {
@@ -288,6 +283,7 @@ canvas {
 .git:hover { color: #fff5b1; }
 /*#Icons social media*/
 
+
 @media screen and (min-width: 768px){
     .toggle-button{
         display: none;
@@ -296,12 +292,18 @@ canvas {
         z-index:0;
     }
 }
+@media (max-width: 500px){
+    #scroll {
+        top: 13%;
+    }
+}
 @media (max-width: 380px){
     .bgcolor-black{
         background-color: #080808e6;
     }
-    .demo a {
-        left: 45%;
+    #scroll {
+        left: -5%;
+        top: 12%;
     }
     iframe {
         width: 330px;
