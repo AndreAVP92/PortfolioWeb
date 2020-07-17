@@ -32,9 +32,9 @@ function toggle_onclick($win, $navbar, width){
 /*FUNCTION TYPED */
 var typed = new Typed('#typed' , {
     strings: [
-        'a .NET Developer',
-        'a Freelancer',
-        'a Drummer too!'
+        ' .NET Developer',
+        ' Freelancer',
+        ' Drummer too!'
     ],
     typeSpeed: 45,
     backSpeed: 45,
