@@ -18,6 +18,8 @@ $(document).ready(function(e){
 
 });
 
+
+
 function toggle_onclick($win, $navbar, width){
     
     if($win.width() <= 768){
@@ -32,9 +34,9 @@ function toggle_onclick($win, $navbar, width){
 /*FUNCTION TYPED */
 var typed = new Typed('#typed' , {
     strings: [
-        ' .NET Developer',
-        ' Freelancer',
-        ' Drummer too!'
+        '.NET Developer',
+        'Freelancer',
+        'Drummer too!'
     ],
     typeSpeed: 45,
     backSpeed: 45,
@@ -43,9 +45,9 @@ var typed = new Typed('#typed' , {
 
 var typed_2 = new Typed('#typed_2' , {
     strings: [
-        ' Full Stack .NET Developer',
-        ' Freelancer',
-        ' Drummer too!'
+        'Full Stack .NET Developer',
+        'Freelancer',
+        'Drummer too!'
     ],
     typeSpeed: 45,
     backSpeed: 45,
